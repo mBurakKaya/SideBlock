@@ -32,6 +32,9 @@ public class WorldGen : MonoBehaviour
     }
 
     // Update is called once per frame
+    IEnumerator Wait(float time) {
+        yield return new WaitForSeconds(time);
+    }
     public void Generate()
     {
         seed = 16876;//Random.Range(1000, 100000);
@@ -40,6 +43,7 @@ public class WorldGen : MonoBehaviour
             int h = Mathf.RoundToInt(Mathf.PerlinNoise(seed, ( i + transform.position.x ) / smoothness) * heightMultiplier) + heightAddition;
             for (int j = 0; j < h; j++)
             {
+                Wait(0.01f);
                 int stoneHeightRandomizer = Random.Range(5, 8);
                 if (j < h - stoneHeightRandomizer)
                 {

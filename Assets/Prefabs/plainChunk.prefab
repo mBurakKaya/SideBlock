@@ -51,9 +51,9 @@ MonoBehaviour:
   dirt2: {fileID: 2626743330971837294, guid: 7c33d47b3cffa3145b36a6cbf309eb9f, type: 3}
   grass: {fileID: 3922380927322163739, guid: 06da3e16fed31384a930a70f0e49d0f6, type: 3}
   width: 16
-  heightMultiplier: 16.7
+  heightMultiplier: 5
   heightAddition: 70
-  smoothness: 16.6
+  smoothness: 16.7
 --- !u!61 &4062787243811769844
 BoxCollider2D:
   m_ObjectHideFlags: 0
