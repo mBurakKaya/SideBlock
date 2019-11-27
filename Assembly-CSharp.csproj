@@ -118,8 +118,7 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
     <Compile Include="Assets\destroyTouching.cs" />
     <Compile Include="Assets\makeWorldGrow.cs" />
-    <Compile Include="Assets\Prefabs\Character\FollowThis.cs" />
-    <Compile Include="Assets\Prefabs\Character\MamadController.cs" />
+    <Compile Include="Assets\Prefabs\Character\CharacterController2D.cs" />
     <Compile Include="Assets\removeMe.cs" />
     <Compile Include="Assets\Scripts\Cave Generation\CaveGen.cs" />
     <Compile Include="Assets\Scripts\GenerateChunks.cs" />

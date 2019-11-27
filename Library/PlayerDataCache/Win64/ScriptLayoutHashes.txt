@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/stajyer001/Desktop/2dTerrGen/2D World Generation.exe
+C:/Users/stajyer001/Desktop/SideBlock/SideBlock.exe
 SceneListBegin?
 Assets/Scenes/ReadyForBuild.unity
 SceneListEnd?
@@ -180,7 +180,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 decd57e5be6a2bfff7c272cf89279e23 Assembly-CSharp.dll:Cinemachine.CinemachineBlenderSettings
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MamadController
+15361cf05ecf15047fb919d47fdaa2c9 Assembly-CSharp.dll:.CharacterController2D
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 6ff1c52123c50b3d73f35cd0e2e65dfd Assembly-CSharp.dll:Cinemachine.CinemachineSmoothPath
 83e769eee07fc231384c812eedbb8224 Assembly-CSharp.dll:.FollowThis
