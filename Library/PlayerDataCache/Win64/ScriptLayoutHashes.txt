@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/stajyer001/Desktop/SideBlock/SideBlock.exe
+C:/Users/stajyer001/Desktop/SideBlockv0.03a/SideBlock.exe
 SceneListBegin?
 Assets/Scenes/ReadyForBuild.unity
 SceneListEnd?
@@ -183,7 +183,6 @@ a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 15361cf05ecf15047fb919d47fdaa2c9 Assembly-CSharp.dll:.CharacterController2D
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 6ff1c52123c50b3d73f35cd0e2e65dfd Assembly-CSharp.dll:Cinemachine.CinemachineSmoothPath
-83e769eee07fc231384c812eedbb8224 Assembly-CSharp.dll:.FollowThis
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Cinemachine.CinemachineHardLookAt
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.removeMe
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.destroyTouching

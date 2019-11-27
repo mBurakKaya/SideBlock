@@ -30,6 +30,9 @@ public class GenerateChunks : MonoBehaviour {
         GameObject newChunk;
         selectedChunk=plainChunk;
         newChunk=Instantiate(selectedChunk, new Vector2(0, 0), Quaternion.identity);
+        Debug.Log("Hello");
+        GenerateL();
+        Debug.Log("Hello2");
     }
     public void Update() {
         if(Input.GetKeyDown("n")) {

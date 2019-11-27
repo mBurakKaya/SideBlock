@@ -8,8 +8,6 @@ public class makeWorldGrow : MonoBehaviour
     // Start is called before the first frame update
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        cnkContinue.numberOfChunks++;
-        cnkContinue.GenerateL();
-        Destroy(gameObject);
+        cnkContinue.Start();
     }
 }

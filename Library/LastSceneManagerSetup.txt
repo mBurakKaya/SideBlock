@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/ReadyForBuild.unity
+- path: Assets/Scenes/LatestScene.unity
   isLoaded: 1
   isActive: 1
