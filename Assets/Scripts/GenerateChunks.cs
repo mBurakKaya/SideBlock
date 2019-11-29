@@ -6,6 +6,7 @@ public class GenerateChunks : MonoBehaviour {
     [Header("Biome Chunks")]
     [Space(20)]
     public GameObject plainChunk;
+    public GameObject plainChunkLeft;
     [Space(20)]
     [Range(1, 100)]
     int plainChunkWidth;
@@ -31,7 +32,7 @@ public class GenerateChunks : MonoBehaviour {
         selectedChunk=plainChunk;
         newChunk=Instantiate(selectedChunk, new Vector2(0, 0), Quaternion.identity);
         Debug.Log("Hello");
-        GenerateL();
+        GenerateMiddle();
         Debug.Log("Hello2");
     }
     public void Update() {
@@ -42,9 +43,16 @@ public class GenerateChunks : MonoBehaviour {
             GenerateR();
         }
     }
-    public void GenerateL() {
+
+    public void GenerateMiddle() {
         GameObject newChunk;
         selectedChunk=plainChunk;
+        newChunk=Instantiate(selectedChunk, new Vector2(lastXN-plainChunkWidth, 0), Quaternion.identity);
+    }
+
+    public void GenerateL() {
+        GameObject newChunk;
+        selectedChunk=plainChunkLeft;
         newChunk=Instantiate(selectedChunk, new Vector2(lastXN-plainChunkWidth, 0), Quaternion.identity);
         lastXN-=plainChunkWidth;
         chunkRandL--;
